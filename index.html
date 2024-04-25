@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Temperature Converter</h1>
+        <h2> Masukkan suhu derajat Celsius (°C) pada kotak dibawah ini, 
+            lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk fahrenheit</h2>
+		<div class="converter">
+			<div class="col">
+                    <label for="">Celsius (°C) </label>
+                <br>
+                    <input type="number" name="celsius"></input>
+                <br>
+            </div>
+            
+            <br>
+
+            <div class="col">
+                    <button onClick="calculateCelsius()">Konversi</button>
+                    <button onClick="reset()">Reset</button>
+                    <button onClick="Reverse()">Reverse</button>
+                <br>
+            </div>
+
+            <br>
+
+            <div class="col">
+                    <label for="">Fahrenheit</label>
+                <br>
+                    <input type="number" name="fahrenheit"></input>
+                <br>
+            </div>
+
+            <br>
+
+		</div>
+        <h2>Cara Konversi Dari Celsius (°C) ke Fahrenheit(°F)</h2>
+        <img src="assest/rumus.png"/>
+
+	</div>
+
+	<script src="js/script.js">	</script>
+</body>
+
+</html>
